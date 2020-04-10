@@ -163,7 +163,7 @@ div.head {
    
 }
 header nav {
-font-size:1rem;
+font-size:1.4rem;
 display:flex;
 align-items:flex-end;
 justify-content: space-around;
@@ -172,6 +172,9 @@ width:100%;
 header {
     width:53%;
     padding:2rem 0 2rem;
+}
+#topPic{
+    width:53%;
 }
 
 #topStuff{
@@ -211,18 +214,66 @@ background-color: forestgreen;
 #box10{
     background-color: dodgerblue;
 }
+a {
+    color:black;
+    text-decoration: none;
+}
 
 
 @media (max-width:800px){
-header {
-    width:
+#topPic{
+    width:80%;
 }
-
+header{
+    width:85%;
+}
+.top-content{
+    font-size:1.4rem;
+}
+.text-container{
+    font-size:1.4rem;
+}
 }
 
 @media (max-width:500px){
 .top-content{
     flex-direction: column;
+    align-items:center;
 }
-    
+#topPic{
+    width:100%;
+    margin:0;
+    align-content: center;
+}
+header{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+
+}
+.boxes{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+#why{
+    text-align:center;
+}
+.top-content .text-container{
+width:100%;
+}
+.bottom-content {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}  
+#nav{
+    display:flex;
+    flex-direction: column;
+}
+header nav{
+    align-items: center;
+}
 }
